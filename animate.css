@@ -1,0 +1,329 @@
+html,body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+    background-color: rgb(1, 20, 22);
+}
+
+.container {
+	/*width: 100%;
+	height: 100%;
+	border: solid red 2px;
+	overflow: hidden;
+	margin: 0;*/
+     padding: 30px;
+   
+}
+
+.top {background-image: url("./images/BGF.png");
+     margin: 0 auto;
+     width: 1200px; 
+     height: 680px;
+    overflow: hidden;
+	background-repeat: no-repeat;
+	z-index: 1;
+}
+
+.stars {
+    background-image: url("./images/stars1.png");
+    height: 680px;
+    width: 1200px;
+    position: absolute;
+    animation: stars1 infinite;
+    animation-duration: 5s;
+    animation-delay: 2.5s;}
+
+@keyframes stars1 {
+        0% { opacity: 1; }
+        50% { opacity: 0; }
+
+    }
+
+.stars2 {
+    background-image: url("./images/stars2.png");
+    height: 680px;
+    width: 1200px;
+    position: absolute;
+    animation: stars2 infinite;
+    animation-duration: 5s;}
+
+@keyframes stars2 {
+        0% { opacity: 1; }
+    50% { opacity: 0; }}
+
+
+.moon {
+    background-image: url("./images/moon.png");
+    height: 680px;
+    width: 1200px;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: -60px;
+    left: 165px;
+    -webkit-animation-name: moon; 
+    -webkit-animation-duration: 2s; 
+    -webkit-animation-iteration-count: 1; 
+    animation-name: moon;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+
+@-webkit-keyframes moon {
+    0%   {background: transparent; left:120px; top:35px;}
+    10%   {left: 120px; top:35px;}
+    25%  {top:-10px; left: 130px;}
+    100% {top:-60px; left:165px; }}
+
+.WC {
+    font-family: 'Halant', serif;
+    font-weight: 300;
+    color: transparent;
+    font-size: 25pt;
+    position: absolute;
+    left: 270px;
+    top: 95px;
+    -webkit-animation-name: WC; 
+    -webkit-animation-duration: 6s; 
+    -webkit-animation-iteration-count: 1; 
+    animation-name: WC;
+    animation-duration: 6s;
+    animation-iteration-count: 1;
+}
+
+@-webkit-keyframes WC {
+    0%   {color: transparent;}
+    45%  {color: transparent;}
+    65%  {color: white}
+    100% {color: transparent;}}
+
+.E {
+    font-family: 'Halant', serif;
+    font-weight: 300;
+    color: white;
+    font-size: 25pt;
+    position: absolute;
+    left: 270px;
+    top: 95px;
+    -webkit-animation-name: E; 
+    -webkit-animation-duration: 12s; 
+    -webkit-animation-iteration-count: 1; 
+    animation-name: E;
+    animation-duration: 12s;
+    animation-iteration-count: 1;
+}
+
+@-webkit-keyframes E {
+    0%   {color: transparent;}
+    45%  {color: transparent;}
+    98%  {color: white}
+    100% {color: white;}}
+
+.presents {
+    font-family: 'Halant', serif;
+    font-weight: 300;
+    color: transparent;
+    font-size: 22pt;
+    position: absolute;
+    left: 375px;
+    top: 135px;
+    -webkit-animation-name: P; 
+    -webkit-animation-duration: 9s; 
+    -webkit-animation-iteration-count: 1; 
+    animation-name: P;
+    animation-duration: 9s;
+    animation-iteration-count: 1;
+}
+
+@-webkit-keyframes P {
+    0%   {color: transparent;}
+    45%  {color: transparent;}
+    65%  {color: white}
+    100% {color: transparent;}}
+
+.info {
+    font-family: 'Halant', serif;
+    font-weight: 300;
+    color: white;
+    font-size: 18pt;
+    position: absolute;
+    left: 585px;
+    top: 305px;
+    animation-name: info;
+    animation-duration: 17s;
+    animation-iteration-count: 1;
+}
+
+.info2 {
+    font-family: 'Halant', serif;
+    font-weight: 300;
+    color: white;
+    font-size: 11pt;
+    line-height: 1.3em;
+    position: absolute;
+    left: 585px;
+    top: 341px;
+    animation-name: info;
+    animation-duration: 19s;
+    animation-iteration-count: 1;
+}
+
+@-webkit-keyframes info {
+    0%   {color: transparent;}
+    50% {color: transparent;}
+    100% {color: white;}}
+
+.info3 {
+    font-family: 'Halant', serif;
+    font-weight: 300;
+    color: white;
+    font-size: 12pt;
+    line-height: 1.3em;
+    position: absolute;
+    left: 850px;
+    top: 475px;
+    width: 290px;
+    height: 300px;
+    z-index: 3;
+    animation-name: info3;
+    animation-duration: 15s;
+    animation-iteration-count: 1;
+
+}
+
+.info4 {
+    font-family: 'Halant', serif;
+    font-weight: 300;
+    color: white;
+    font-size: 12pt;
+    line-height: 1.3em;
+    position: absolute;
+    left: 870px;
+    top: 532px;
+    width: 250px;
+    height: 300px;
+    z-index: 3;
+    animation-name: info3;
+    animation-duration: 17s;
+    animation-iteration-count: 1;
+
+}
+
+.info5 {
+    font-family: 'Halant', serif;
+    font-weight: 300;
+    color: white;
+    font-size: 12pt;
+    line-height: 1.3em;
+    position: absolute;
+    left: 800px;
+    top: 595px;
+    width: 400px;
+    height: 300px;
+    z-index: 3;
+    animation-name: info3;
+    animation-duration: 19s;
+    animation-iteration-count: 1;
+
+}
+
+@-webkit-keyframes info3 {
+    0%   {color: transparent;}
+    80% {color: transparent;}
+    100% {color: white;}}
+
+
+
+
+
+.A {
+    font-family: 'Monoton', cursive;
+    color: pink;
+    font-size: 39pt;
+    position: absolute;
+    left: 435px;
+    top: 170px;
+    -webkit-animation-name: AP; 
+    -webkit-animation-duration: 15s; 
+    -webkit-animation-iteration-count: 1; 
+    animation-duration: 15s;
+    animation-iteration-count: 1;
+}
+
+@-webkit-keyframes AP {
+    0%   {color: transparent;}
+    45%  {color: transparent;}
+    100%  {color: pink}}
+
+.P {
+    font-family: 'Monoton', cursive;
+    color: pink;
+    font-size: 39pt;
+    position: absolute;
+    left: 453px;
+    top: 236px;
+    -webkit-animation-name: AP; 
+    -webkit-animation-duration: 15s; 
+    -webkit-animation-iteration-count: 1; 
+    animation-name: AP;
+    animation-duration: 15s;
+    animation-iteration-count: 1;
+}
+
+.PRED {
+    font-family: 'Monoton', cursive;
+    color: transparent;
+    font-size: 39pt;
+    position: absolute;
+    left: 453px;
+    top: 236px;
+    -webkit-animation-name: APRED; 
+    -webkit-animation-duration: 1.3s; 
+    -webkit-animation-iteration-count: infinite; 
+    animation-name: APRED;
+    animation-duration: 1.3s;
+    animation-iteration-count: infinite;
+	animation-delay: 10s;
+}
+
+
+.ARED {
+    font-family: 'Monoton', cursive;
+    color: transparent;
+    font-size: 39pt;
+    position: absolute;
+    left: 435px;
+    top: 170px;
+    -webkit-animation-name: APRED; 
+    -webkit-animation-duration: 1.3s; 
+    -webkit-animation-iteration-count: infinite; 
+    animation-name: APRED;
+    animation-duration: 1.3s;
+    animation-iteration-count: infinite;
+	animation-delay: 10s;}
+
+@-webkit-keyframes APRED {
+    0%   {color: red;}
+    70% {color: transparent;}}
+
+.AFP {
+    background-image: url("./images/AFP.png");
+    background-repeat: no-repeat;
+    height: 680px;
+    width: 1200px;
+    position: absolute;
+    top: 40px;
+    left: 55px;
+    animation: AFPFadeInOut 11s ease-in-out;
+    animation-iteration-count: 1;}
+
+@keyframes AFPFadeInOut {
+        0% { opacity:0; }
+        60% { opacity: 0; }
+        100% { opacity:1; }
+    }
+
+
+
+
+
+
